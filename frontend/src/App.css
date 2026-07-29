@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+
+  margin: 0;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+
+  background: #f4f8fb;
+
+}
+
+
+
+.container {
+
+  width: 95%;
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  padding: 20px;
+
+}
+
+
+
+h1 {
+
+  text-align: center;
+
+  color: #0b5ed7;
+
+  margin-bottom: 30px;
+
+}
+
+
+
+h2 {
+
+  color: #123;
+
+}
+
+
+
+
+
+
+.card {
+
+  background: white;
+
+  border-radius: 15px;
+
+  padding: 20px;
+
+  margin: 15px 0;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+
+  transition: 0.3s;
+
+}
+
+
+
+.card:hover {
+
+  transform: translateY(-3px);
+
+}
+
+
+
+
+
+
+.section {
+
+  margin-top: 25px;
+
+}
+
+
+
+
+
+
+button {
+
+  background: #0b5ed7;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+}
+
+
+
+button:hover {
+
+  background: #084298;
+
+}
+
+
+
+
+
+
+table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  background: white;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+
+}
+
+
+
+th {
+
+  background: #0b5ed7;
+
+  color: white;
+
+  padding: 14px;
+
+}
+
+
+
+td {
+
+  padding: 12px;
+
+  border-bottom: 1px solid #ddd;
+
+  text-align: center;
+
+}
+
+
+
+
+
+
+/* AI Status Cards */
+
+
+.agent-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+
+  gap:20px;
+
+}
+
+
+
+.agent-card {
+
+  background:white;
+
+  padding:20px;
+
+  border-radius:15px;
+
+  box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+
+
+.active {
+
+  color:green;
+
+  font-weight:bold;
+
+}
+
+
+
+
+
+
+/* Medicine Stock */
+
+
+.stock-bar {
+
+  height:15px;
+
+  background:#ddd;
+
+  border-radius:10px;
+
+  overflow:hidden;
+
+}
+
+
+
+.stock-fill {
+
+  height:100%;
+
+  background:#198754;
+
+}
+
+
+
+
+
+
+/* Mobile */
+
+
+@media(max-width:600px){
+
+
+.container{
+
+  width:100%;
+
+  padding:10px;
+
+}
+
+
+h1{
+
+  font-size:25px;
+
+}
+
+
+table{
+
+  font-size:12px;
+
+}
+
+
+button{
+
+  width:100%;
+
+}
+
+
+
+}
